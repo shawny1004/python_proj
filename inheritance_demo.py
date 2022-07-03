@@ -43,5 +43,6 @@ for s in my_shapes:
 
 ## Type casting:
 ## say if my square's hole is fixed now, I don't want to subtract the hole 
-my_shape4.__class__=shape.Square
+my_shape4.__class__=shape.SquareWithAHoleInside
+my_shape4.get_area = shape.Square.get_name
 print(f"Now the area is {my_shape4.get_area()} without hole")

@@ -1,7 +1,10 @@
 
-from pickletools import read_unicodestring1
-
 PI=3.1416
+
+print(PI)
+
+def my_func():
+    pass
 
 class Shape:
 
@@ -51,6 +54,9 @@ class SquareWithAHoleInside(Square):
 
 
 class Circle(Shape):
+
+    MY_PI=3.14
+
     def __init__(self, name, radius):
         self.name=name
         self.radius=radius
